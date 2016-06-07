@@ -1,23 +1,26 @@
 {
-    "name": "binarta.i18n.over.sockjs.angular",
-    "main": "./src/i18n.over.sockjs.js",
-    "dependencies": {
-      "angular": "1.3.*",
-      "binarta.sockjs.angular": "0.*.*",
-      "binarta.config.angular": "0.*.*",
-      "binarta.rest.client.angular": "0.*.*",
-      "binarta.notifications.angular": "1.*.*"
-    },
-    "devDependencies": {
-        "angular-mocks": "1.3.*",
-        "thk-config-mock": "0.*.*",
-        "thk-notifications-mock": "0.*.*",
-        "thk-rest-client-mock": "0.*.*"
-    },
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test"
-    ]
+  "name": "binarta.i18n.over.sockjs.angular",
+  "main": [
+    "./src/i18n.over.sockjs.js",
+    "./sources.json"
+  ],
+  "dependencies": {
+    "binarta.angularx": "0.*.*",
+    "binarta.sockjs.angular": "0.*.*",
+    "binarta.config.angular": "0.*.*",
+    "binarta.rest.client.angular": "0.*.*",
+    "binarta.notifications.angular": "1.*.*"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.*.*",
+    "thk-config-mock": "0.*.*",
+    "thk-notifications-mock": "0.*.*",
+    "thk-rest-client-mock": "0.*.*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
 }
